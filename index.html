@@ -499,17 +499,17 @@
             <div class="eight columns center">
 
                <!-- form -->
-               <form action="" method="post" id="contactForm" name="contactForm">
+               <form action="./demo.html" method="post" id="contactForm" name="contactForm">
 					<fieldset>
 
                   <div>
 						   <label for="contactName">Name <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactName" name="contactName">
+						   <input type="text" value="" size="35" id="contactName" name="contactName" required="yes">
                   </div>
 
                   <div>
 						   <label for="contactEmail">Email <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail" required="yes">
                   </div>
 
                   <div>
@@ -519,21 +519,21 @@
 
                   <div>
                      <label for="contactMessage">Message <span class="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage" required="yes"></textarea>
                   </div>
 
                   <div>
-                     <button class="submit">Submit</button>
+                     <input value="submit" type="submit" href="demo.html" class="submit"></input>
                      <span id="image-loader">
                         <img alt="" src="images/loader.gif">
                      </span>
                   </div>
 
 					</fieldset>
-				   </form> <!-- Form End -->
+				</form> <!-- Form End -->
 
                <!-- contact-warning -->
-               <div id="message-warning"> Error boy</div>
+               <div id="message-warning"> Error </div>
                <!-- contact-success -->
 				   <div id="message-success">
                   <i class="fa fa-check"></i>Your message was sent, thank you!<br>
