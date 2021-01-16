@@ -1008,7 +1008,6 @@ call-to-action .button {
    height: auto;
    display: inline-block;
 	border-radius: 3px;
-   margin-left: 26%;
 }
 #contact input.submit:hover {
 	color: #0D0D0D;
