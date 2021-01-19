@@ -404,6 +404,22 @@ ul#nav li.current a { color: #F06000; }
     -webkit-animation: junit 5s ease;
 }
 
+.python {
+    width: 20%;
+    -moz-animation: python 5s ease;
+    -webkit-animation: python 5s ease;
+}
+
+.selenium {
+    width: 40%;
+    -moz-animation: selenium 5s ease;
+    -webkit-animation: selenium 5s ease;
+}
+.sonar {
+    width: 60%;
+    -moz-animation: sonar 5s ease;
+    -webkit-animation: sonar 5s ease;
+}
 .xml {
     width: 70%;
     -moz-animation: xml 5s ease;
@@ -476,6 +492,18 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
+@-moz-keyframes python {
+  0%   { width: 0px;  }
+  100% { width: 20%;  }
+}
+@-moz-keyframes selenium {
+  0%   { width: 0px;  }
+  100% { width: 40%;  }
+}
+@-moz-keyframes sonar {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
 @-moz-keyframes xml {
   0%   { width: 0px;  }
   100% { width: 70%;  }
@@ -538,6 +566,18 @@ ul#nav li.current a { color: #F06000; }
   100% { width: 30%;  }
 }
 @-webkit-keyframes junit {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
+@-webkit-keyframes python {
+  0%   { width: 0px;  }
+  100% { width: 20%;  }
+}
+@-webkit-keyframes selenium {
+  0%   { width: 0px;  }
+  100% { width: 40%;  }
+}
+@-webkit-keyframes sonar {
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
